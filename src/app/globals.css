@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* =============================================================
+   FONT ELNATH (dipakai untuk LOGO "AW Cloth")
+   File font ada di: public/fonts/Elnath/ELNATH.otf & ELNATH.ttf
+   ============================================================= */
+@font-face {
+  font-family: "Elnath";
+  src:
+    url("/fonts/Elnath/ELNATH.otf") format("opentype"),
+    url("/fonts/Elnath/ELNATH.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =============================================================
+   PALET WARNA & TOKEN TEMA (Tailwind v4)
+   Hitam #0A0A0A · Putih #FFFFFF · Oranye #FF5C00
+   ============================================================= */
+@theme {
+  --color-ink: #0a0a0a;
+  --color-paper: #ffffff;
+  --color-brand: #ff5c00;
+  --color-brand-dark: #e04e00;
+  --color-muted: #6b7280;
+  --color-line: #e5e7eb;
+  --color-soft: #f5f5f4;
+
+  /* Font khusus logo brand */
+  --font-logo: "Elnath", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Logo brand "AW Cloth" memakai font Elnath */
+.font-logo {
+  font-family: var(--font-logo);
+}
