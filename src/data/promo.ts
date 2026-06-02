@@ -10,8 +10,7 @@ export const hero = {
     "Kaos dan celana pendek esensial dengan bahan nyaman dan potongan modern. Dibuat untuk gerak bebas setiap hari.",
   primaryCta: { label: "Lihat Koleksi", href: "#koleksi" },
   secondaryCta: { label: "Tentang Kami", href: "#tentang" },
-  image:
-    "https://images.unsplash.com/photo-1490725263030-1f0521cec8ec?w=1200&q=80",
+  image: "/images/putih-aw.png",
 };
 
 export const promo = {
