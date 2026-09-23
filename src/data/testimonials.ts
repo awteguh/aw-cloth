@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
     name: "Dinda P.",
     location: "Jakarta",
     rating: 5,
-    text: "Celana pendek chino-nya nyaman dipakai seharian. Ukurannya pas sesuai size chart. Recommended.",
+    text: "Celana pendek semi wool-nya nyaman dipakai seharian, bahannya adem dan jatuhnya rapi. Ukurannya pas sesuai size chart. Recommended.",
   },
   {
     id: "3",

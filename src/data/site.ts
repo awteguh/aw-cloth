@@ -12,12 +12,12 @@ export const site = {
 
   // Kontak
   email: "halo@awcloth.id",
-  phone: "+62 812-3456-7890",
+  phone: "+62 822-2830-5590",
   address: "Jakarta, Indonesia",
 
   // Nomor WhatsApp untuk tombol "Beli" — format internasional TANPA tanda + atau spasi
   // Contoh: 62 untuk Indonesia, lalu nomor tanpa angka 0 di depan.
-  whatsappNumber: "6281234567890",
+  whatsappNumber: "6282228305590",
 
   // Link sosial media & marketplace (kosongkan "" jika tidak dipakai)
   social: {
